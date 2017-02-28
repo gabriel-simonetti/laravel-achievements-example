@@ -8,9 +8,10 @@
    - User: root with no password
    - Database: laravel_achievements
 4. Run migrations with the command `php artisan migrate`
-5. Run the server with the command `php artisan serve`
-6. Navigate to `http://localhost:8000/posts`
-7. Make a post
-8. Navigate to `http://localhost:8000/achievements`
-9. This page should track your progress on the achievements related to creating a post.
+5. Seed the database with a user by running `php artisan db:seed`
+6. Run the server with the command `php artisan serve`
+7. Navigate to `http://localhost:8000/posts`
+8. Make a post
+9. Navigate to `http://localhost:8000/achievements`
+10. This page should track your progress on the achievements related to creating a post.
 
