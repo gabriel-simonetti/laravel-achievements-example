@@ -79,6 +79,13 @@
             </div>
         </nav>
 
+        @if (Session::has('achievements'))
+            <div class="alert alert-info">
+                @foreach(Session::get('achievements') as $achievement)
+                    <p>{{ $achievement }}</p>
+                @endforeach
+            </div>
+        @endif
         @yield('content')
     </div>
 
